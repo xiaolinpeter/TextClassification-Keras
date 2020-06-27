@@ -104,4 +104,5 @@ model.fit(x_train, y_train,
           validation_data=(x_test, y_test))
 
 print('Test...')
+print('Test code')
 result = model.predict(x_test)
